@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import Cart from "../Cart/Cart";
 import Header from "../Header/Header";
+import Questions from "../Questions/Questions";
 import "./Store.css";
 const Store = () => {
   const [cards, setCards] = useState([]);
@@ -67,6 +68,7 @@ const Store = () => {
           </div>
         </div>
       </main>
+      <Questions></Questions>
     </div>
   );
 };
