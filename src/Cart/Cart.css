@@ -1,0 +1,11 @@
+.cart {
+  display: flex;
+  background-color: aliceblue;
+  padding: 5px;
+}
+.cart img {
+  border-radius: 50%;
+}
+.cart .cart-info {
+  padding-left: 15px;
+}

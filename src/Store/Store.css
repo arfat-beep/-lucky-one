@@ -8,3 +8,8 @@ main {
   gap: 30px;
   margin: 30px;
 }
+.cart-sticky {
+  position: sticky;
+  top: 0;
+  margin: 30px;
+}

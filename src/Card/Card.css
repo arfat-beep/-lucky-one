@@ -3,10 +3,9 @@
   padding: 5px;
   border-radius: 5px;
   position: relative;
-  height: 500px;
 }
 .card .card-info {
-  padding-left: 15px;
+  padding: 0 15px 45px 0;
 }
 .card img {
   width: 100%;
