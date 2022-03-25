@@ -18,6 +18,19 @@ const Store = () => {
       setCartList([...cartList, id]);
     }
   };
+  const chooseOne = () => {
+    if (carts.length > 1) {
+      let rand = parseInt(Math.round(Math.random() * carts.length));
+      if (rand < 0) {
+        rand = 0;
+      }
+      setCarts([carts[rand]]);
+      setCartList([carts[rand].id]);
+    }
+  };
+  const chooseAgain = () => {
+    setCartList([]);
+  };
   useEffect(() => {
     let tempCarts = [];
     for (const id of cartList) {
@@ -40,10 +53,17 @@ const Store = () => {
           ))}
         </div>
         <div className="cart-container">
+          <h1>Selected Clothes</h1>
           <div className="cart-sticky">
             {carts.map((cart) => (
               <Cart key={cart.id} cart={cart}></Cart>
             ))}
+            <div>
+              <button onClick={chooseOne}>Choose 1 for me</button>
+            </div>
+            <div>
+              <button onClick={chooseAgain}>Choose Again</button>
+            </div>
           </div>
         </div>
       </main>

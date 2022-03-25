@@ -8,8 +8,29 @@ main {
   gap: 30px;
   margin: 30px;
 }
+.cart-container h1 {
+  text-align: center;
+}
 .cart-sticky {
   position: sticky;
   top: 0;
   margin: 30px;
+}
+.cart-sticky button {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid rgb(98, 255, 98);
+  padding: 10px 15px;
+  background: transparent;
+  color: rgb(0 149 0);
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.card .card-info button:hover {
+  background-color: #f62e0b;
+}
+.card .card-info button:active {
+  box-shadow: 0 2px #666;
+  bottom: 2px;
 }
