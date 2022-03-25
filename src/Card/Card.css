@@ -1,0 +1,35 @@
+.card {
+  border: 3px solid rgb(219, 219, 219);
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  height: 500px;
+}
+.card .card-info {
+  padding-left: 15px;
+}
+.card img {
+  width: 100%;
+}
+.card .card-info button {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  background-color: #f4511e;
+  padding: 15px 10px;
+  border-radius: 0 0 5px 5px;
+  border: antiquewhite;
+  box-shadow: 0 5px #666;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.card .card-info button:hover {
+  background-color: #f62e0b;
+}
+.card .card-info button:active {
+  box-shadow: 0 2px #666;
+  bottom: 2px;
+}
