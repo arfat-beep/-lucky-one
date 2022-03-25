@@ -3,13 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 const Card = ({ card, handleCartList }) => {
+  const { img, name, price, id } = card;
   return (
     <div className="card">
-      <img src={card.img} height="300" width="200" alt="" />
+      <img src={img} height="300" width="200" alt="" />
       <div className="card-info">
-        <p>Name : {card.name} </p>
-        <p>Price : {card.price} </p>
-        <button onClick={() => handleCartList(card.id)}>
+        <p>Name : {name} </p>
+        <p>Price : {price} </p>
+        <button onClick={() => handleCartList(id)}>
           Add To Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
         </button>
       </div>
