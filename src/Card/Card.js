@@ -9,7 +9,7 @@ const Card = ({ card, handleCartList }) => {
       <img src={img} height="300" width="200" alt="" />
       <div className="card-info">
         <p>Name : {name} </p>
-        <p>Price : {price} </p>
+        <p>Price : ${price} </p>
         <button onClick={() => handleCartList(id)}>
           Add To Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
         </button>
