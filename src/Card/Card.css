@@ -32,3 +32,8 @@
   box-shadow: 0 2px #666;
   bottom: 2px;
 }
+@media (max-width: 767px) {
+  .card .card-info button {
+    font-size: medium;
+  }
+}
