@@ -53,8 +53,8 @@ const Store = () => {
           ))}
         </div>
         <div className="cart-container">
-          <h1>Selected Clothes</h1>
           <div className="cart-sticky">
+            <h1>Selected Clothes</h1>
             {carts.map((cart) => (
               <Cart key={cart.id} cart={cart}></Cart>
             ))}
