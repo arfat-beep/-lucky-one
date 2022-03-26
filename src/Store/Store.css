@@ -34,12 +34,12 @@ main {
   box-shadow: 0 2px #666;
   bottom: 2px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     margin: 10px;
   }
-}
+} */
 @media (max-width: 767px) {
   main {
     display: flex;

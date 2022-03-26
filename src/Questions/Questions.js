@@ -4,11 +4,11 @@ const Questions = () => {
   return (
     <div className="m-5">
       <h1 className="pb-4">Quesions and Answers</h1>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+      <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingOne">
             <button
-              class="accordion-button"
+              className="accordion-button"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
@@ -20,11 +20,11 @@ const Questions = () => {
           </h2>
           <div
             id="collapseOne"
-            class="accordion-collapse collapse show"
+            className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               Using 'React' we need 2 packages from node which is 'React' and
               'React Dom'. In 'React' every component is pure JavaScript. Now
               'React' transform pure JavaScript into HTML code. Then 'React Dom'
@@ -33,10 +33,10 @@ const Questions = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
@@ -48,12 +48,12 @@ const Questions = () => {
           </h2>
           <div
             id="collapseTwo"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body ">
-              <table class="table table-dark table-striped table-hover w-50 m-auto text-center">
+            <div className="accordion-body ">
+              <table className="table table-dark table-striped table-hover w-50 m-auto text-center">
                 <thead>
                   <tr>
                     <th scope="col">Props</th>
@@ -74,10 +74,10 @@ const Questions = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
@@ -89,11 +89,11 @@ const Questions = () => {
           </h2>
           <div
             id="collapseThree"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               useState is a react Hook that allows you to have state variables
               in functional components. One can change state in it. Whenever the
               state changes, React re-renders the component to the browser.
